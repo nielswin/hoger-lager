@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Higher Lower game</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="dice">
+        <h2 class="dice-title">Can you guess if the number is higher or lower?</h2>
+        <div class="row">
+            <div class="col-6">
+                <h3 class="player">Player</h3>
+                <img src="img/dice1.png">
+            </div>
+            <div class="col-6">
+                <h3 class="player">Computer</h3>
+                <img src="img/dice1.png">
+            </div>
+        </div>
+        <h1 class="head"></h1>
+        <button id="dice-button" onclick="dicegame()">Go</button>
+    </div>
+
+    <!--make the computer credits-->
+    <h3>Player Credits: <span id="player-credits">5</span></h3>
+    <h3>Computer Credits: <span id="computer-credits">5</span></h3>
+   
+    <!--sounds i was testing with but didnt have enough time-->
+    <audio id="winSound" src="sound/yippee-tbh.mp3"></audio>
+    <audio id="loseSound" src="sound/spongebob-fail.mp3"></audio>
+
+    <script src="/js/main.js"></script>
+
+</body>
+
+</html>

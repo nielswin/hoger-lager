@@ -1,0 +1,61 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 120%;
+    text-align: center;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background-image: url('img/skygif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding:0;
+    margin:0;
+    color: white;
+}
+
+.dice{
+    position: relative;
+    padding: 10px 180px;
+    display: block;
+    font-size: medium;
+}
+
+.row{
+ display: flex;
+ column-gap: 20px;
+}
+
+.col-6{
+    width: 50%;
+}
+
+.img-dice{
+    border-radius: 24px;
+    
+}
+
+button{
+    margin-top: 40px;
+    height: 54px;
+    border-radius: 10px;
+    padding: 5px 20px;
+    border: 0;
+    font-size: 22px;
+    text-transform: uppercase;
+    background-color:white
+}
+button:hover{
+    color:black
+}
+
+
+#credits {
+    font-weight: bold;
+    color: lightseagreen;
+}
+
+.player{
+    font-size: 200%;
+}
